@@ -27,3 +27,11 @@ npm i -D @types/jest
 #### 04 Describe requirements with test todo placeholders
 
 #### 05 Configure the expectation for the first requirement
+
+#### 06 Configure jest for ES modules support
+
+https://how-to.dev/how-to-set-up-jest-for-es-module
+
+```
+npm i -D @babel/plugin-transform-modules-commonjs
+```
