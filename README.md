@@ -43,3 +43,5 @@ npm i -D @babel/plugin-transform-modules-commonjs
 #### 09 Add another expectation for an empty items object on new stack creation
 
 #### 10 Write an expectation for the push test
+
+#### 11 Implement push

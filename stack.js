@@ -5,6 +5,10 @@ class Stack {
     // stack items is an empty object
     this.items = {};
   }
+
+  push(item) {
+    this.topItemIndex++;
+  }
 }
 
 export default Stack;
