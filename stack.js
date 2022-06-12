@@ -8,6 +8,12 @@ class Stack {
 
   push(item) {
     this.topItemIndex++;
+    this.items[this.topItemIndex] = item;
+  }
+
+  get peek() {
+    // console.log(this.items);
+    return this.items[this.topItemIndex];
   }
 }
 
