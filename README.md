@@ -12,23 +12,25 @@ https://www.youtube.com/watch?v=Jv2uxzhPFl4
 npm init vite .
 ```
 
-#### 02 Install jest
+#### 02 Add README
+
+#### 03 Install jest
 
 ```
 npm i -D jest
 ```
 
-#### 03 Install jest types (for code autocompletion)
+#### 04 Install jest types (for code autocompletion)
 
 ```
 npm i -D @types/jest
 ```
 
-#### 04 Describe requirements with test todo placeholders
+#### 05 Describe requirements with test todo placeholders
 
-#### 05 Configure the expectation for the first requirement
+#### 06 Configure the expectation for the first requirement
 
-#### 06 Configure jest for ES modules support
+#### 07 Configure jest for ES modules support
 
 https://how-to.dev/how-to-set-up-jest-for-es-module
 
@@ -36,4 +38,6 @@ https://how-to.dev/how-to-set-up-jest-for-es-module
 npm i -D @babel/plugin-transform-modules-commonjs
 ```
 
-#### 07 Write the stack constructor code that makes the first test pass
+#### 08 Write the stack constructor code that makes the first test pass
+
+#### 09 Add another expectation for an empty items object on new stack creation
