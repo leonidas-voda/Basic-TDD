@@ -51,3 +51,5 @@ npm i -D @babel/plugin-transform-modules-commonjs
 #### 13 Implement peek and fix push
 
 #### 14 Write the expectations for pop
+
+#### 15 Implement pop

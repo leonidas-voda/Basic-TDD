@@ -12,8 +12,19 @@ class Stack {
   }
 
   get peek() {
-    // console.log(this.items);
+    // console.log("PEEK", this.items);
     return this.items[this.topItemIndex];
+  }
+
+  pop() {
+    /* 
+    just point to the previous index,
+    item will still exist in the stack 
+    but will be overwritten as soon as we push another item
+    */
+    this.topItemIndex--;
+    // console.log("POPPED one, topItemIndex", this.topItemIndex);
+    // console.log("POPPED one, items", this.items);
   }
 }
 
