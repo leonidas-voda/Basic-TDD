@@ -25,3 +25,5 @@ npm i -D @types/jest
 ```
 
 #### 04 Describe requirements with test todo placeholders
+
+#### 05 Configure the expectation for the first requirement
