@@ -49,3 +49,5 @@ npm i -D @babel/plugin-transform-modules-commonjs
 #### 12 Write an expectation for peeking at the stack top
 
 #### 13 Implement peek and fix push
+
+#### 14 Write the expectations for pop

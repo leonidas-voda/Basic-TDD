@@ -14,5 +14,15 @@ describe("Stack", () => {
     expect(stack.peek).toBe("42");
   });
 
-  it.todo("can pop items");
+  it("can pop items", () => {
+    const stack = new Stack();
+    stack.push("item1"); // idx 0
+    stack.push("item2"); // idx 1
+    stack.push("item3"); // idx 2
+    stack.pop();
+    expect(stack.topItemIndex).toBe(1);
+    expect(stack.peek).toBe("item2");
+    stack.push("item42"); // idx 2
+    expect(stack.peek).toBe("item42");
+  });
 });
