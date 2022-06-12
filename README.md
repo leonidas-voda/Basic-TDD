@@ -35,3 +35,5 @@ https://how-to.dev/how-to-set-up-jest-for-es-module
 ```
 npm i -D @babel/plugin-transform-modules-commonjs
 ```
+
+#### 07 Write the stack constructor code that makes the first test pass
