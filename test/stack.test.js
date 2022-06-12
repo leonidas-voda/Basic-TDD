@@ -7,6 +7,11 @@ describe("Stack", () => {
     expect(stack.items).toEqual({});
   });
 
-  it.todo("can push items to the top");
+  it("can push items to the top", () => {
+    const stack = new Stack();
+    stack.push("42");
+    expect(stack.topItemIndex).toBe(0);
+  });
+
   it.todo("can pop items");
 });
