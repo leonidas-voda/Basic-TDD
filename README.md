@@ -6,14 +6,20 @@
 
 https://www.youtube.com/watch?v=Jv2uxzhPFl4
 
-#### 01
+#### 01 Initialize app with vite
 
 ```
 npm init vite .
 ```
 
-#### 02
+#### 02 Install jest
 
 ```
 npm i -D jest
+```
+
+#### 03 Install jest types (for code autocompletion)
+
+```
+npm i -D @types/jest
 ```
