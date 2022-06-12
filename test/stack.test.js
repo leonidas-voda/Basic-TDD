@@ -11,6 +11,7 @@ describe("Stack", () => {
     const stack = new Stack();
     stack.push("42");
     expect(stack.topItemIndex).toBe(0);
+    expect(stack.peek).toBe("42");
   });
 
   it.todo("can pop items");

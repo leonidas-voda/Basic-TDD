@@ -45,3 +45,5 @@ npm i -D @babel/plugin-transform-modules-commonjs
 #### 10 Write an expectation for the push test
 
 #### 11 Implement push
+
+#### 12 Write an expectation for peeking at the stack top
